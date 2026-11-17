@@ -14,7 +14,7 @@ AI가 답할 때 사용자 의견, 먼저 나온 숫자, 권위 같은 것에 �
 ### 코딩 에이전트 (Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot 등)
 
 ```bash
-npx skills add <GitHub 계정>/bias-skills
+npx skills add hamjw-97/bias-skills
 ```
 
 `-a claude-code`처럼 설치할 에이전트를 고르거나, `--skill bias-guard`처럼 스킬 하나만 고를 수 있습니다. 직접 넣으려면 `skills/` 아래 폴더를 각 도구의 스킬 폴더(Claude Code는 `~/.claude/skills/`)에 복사합니다.
